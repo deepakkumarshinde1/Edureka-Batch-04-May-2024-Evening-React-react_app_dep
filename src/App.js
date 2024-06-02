@@ -60,6 +60,18 @@ const App = () => {
                     <i className="fa fa-users" aria-hidden="true"></i> User List
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink
+                    to="/about-us"
+                    className={({ isActive }) =>
+                      isActive
+                        ? "text-success text-decoration-none"
+                        : "text-decoration-none"
+                    }
+                  >
+                    <i className="fa fa-users" aria-hidden="true"></i> About Us
+                  </NavLink>
+                </li>
               </ul>
             </nav>
           </header>
